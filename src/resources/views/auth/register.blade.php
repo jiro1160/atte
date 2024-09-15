@@ -32,10 +32,9 @@
             </div>
             <input class="register-form_btn btn" type="submit" value="会員登録">
         </form>
+        <div class="login__link">
+            <a class="login_button-submit" href="/login">ログイン</a>
+        </div>
     </div>
 </div>
-@endsection
-
-@section('link')
-<a href="/login">ログイン</a>
 @endsection

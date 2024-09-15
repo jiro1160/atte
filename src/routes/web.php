@@ -1,7 +1,6 @@
 <?php
 
-use App\Http\Controllers\RegisteredUserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RegisteredUserController;
 
 Route::get('/register', [RegisteredUserController::class, 'getRegister']);
-Route::post('/register', [RegisteredUserController::class, 'register']);

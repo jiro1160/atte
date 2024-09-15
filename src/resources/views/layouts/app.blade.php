@@ -18,7 +18,6 @@
         <div class="content">
             @yield('content')
         </div>
-            @yield('link')
     </div>
 </body>
 

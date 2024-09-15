@@ -2,12 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Http\Request;
 
 class RegisteredUserController extends Controller
 {
-    public function getRegister() {
-        return view('register');
+    public function getRegister()
+    {
+        return view('auth.register');
     }
 }
